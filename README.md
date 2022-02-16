@@ -1,6 +1,6 @@
 # Warp Keyboard Shortcut Presets
 
-This is an open source repository with custom keyboard shortcut presets for [Warp](https://www.warp.dev). We welcome and appreciate any contributions!
+This is an open source repository with custom keyboard shortcut presets for [Warp](https://www.warp.dev).
 
 ### Disclaimer
 
@@ -25,3 +25,7 @@ If you decide that you don't like a preset and want to restore your previous set
 1. Delete `~/.warp/keybindings.yaml`
 2. Rename the back up you created in step (2) above back to `keybindings.yaml`
 3. Restart Warp
+
+## Contribution
+
+We welcome and appreciate any contributions! The existing preset files should serve as an example for the format, while the a more comprehensive description of the file format is available in [FORMAT.md](FORMAT.md)

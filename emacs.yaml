@@ -1,4 +1,5 @@
 ---
+# Editor Actions
 "editor_view:select_right_by_word": shift-meta-F
 "editor_view:select_left": ctrl-shift-B
 "editor_view:select_right": ctrl-shift-F
