@@ -2,6 +2,8 @@
 
 The keybindings file is a [yaml](https://yaml.org/) file with a top-level map of action names to key bindings. Both the action name and the key binding are string values.
 
+_Compatibility Note_: Warp is still in Beta and this format is subject to change.
+
 ## Key Bindings
 
 The format for the key bindings is a hyphen-separated list of modifiers ending with the key. For example, `cmd-ctrl-g` represents `Command + Control + G`
