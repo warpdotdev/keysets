@@ -16,7 +16,7 @@ To use any of these keyboard presets, follow these steps:
 4. Rename that file to `keybindings.yaml`
 5. Restart Warp
 
-That's it! When Warp re-opens it will pick up your new keyboard shortcuts and automatically apply them.
+That's it! When Warp re-opens it will pick up your new keyboard shortcuts and automatically apply them. Any additional customizations you make to your keybindings will also be saved into `keybindings.yaml`, so feel free to modify them as you see fit.
 
 ## Uninstallation
 
