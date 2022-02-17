@@ -1,0 +1,9 @@
+---
+# Editor Actions
+"editor_view:select_right_by_word": shift-meta-F
+"editor_view:select_left": ctrl-shift-B
+"editor_view:select_right": ctrl-shift-F
+"editor:select_to_line_end": ctrl-shift-E
+"editor_view:cut_word_right": meta-d
+"editor:select_to_line_start": ctrl-shift-A
+"editor_view:select_left_by_word": shift-meta-B
