@@ -23,7 +23,7 @@ That's it! When Warp re-opens it will pick up your new keyboard shortcuts and au
 If you decide that you don't like a preset and want to restore your previous settings, follow these steps:
 
 1. Delete `~/.warp/keybindings.yaml`
-2. Rename the back up you created in step (2) above back to `keybindings.yaml`
+2. Rename the back-up you created in step (2) above back to `keybindings.yaml`
 3. Restart Warp
 
 ## Contribution
