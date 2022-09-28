@@ -28,4 +28,4 @@ If you decide that you don't like a preset and want to restore your previous set
 
 ## Contribution
 
-We welcome and appreciate any contributions! The existing preset files should serve as an example for the format, while the a more comprehensive description of the file format is available in [FORMAT.md](FORMAT.md)
+We welcome and appreciate any contributions! The existing preset files should serve as an example for the format, however a more comprehensive description of the file format is available in [FORMAT.md](FORMAT.md)
