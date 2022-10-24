@@ -1,74 +1,78 @@
 # Keybindings File Format
 
-The keybindings file is a [yaml](https://yaml.org/) file with a top-level map of action names to key bindings. Both the action name and the key binding are string values.
+The keybindings file is a [yaml](https://yaml.org/) file with a top-level map of action names to key
+bindings. Both the action name and the key binding are string values.
 
 _Compatibility Note_: Warp is still in Beta and this format is subject to change.
 
 ## Key Bindings
 
-The format for the key bindings is a hyphen-separated list of modifiers ending with the key. For example, `cmd-ctrl-g` represents `Command + Control + G`
+The format for the key bindings is a hyphen-separated list of modifiers ending with the key. For
+example, `cmd-ctrl-g` represents `Command + Control + G`
 
 ### Modifiers
 
 The possible modifiers are:
 
-* `ctrl`: Control
-* `cmd`: Command
-* `alt`: Option
-* `meta`: Meta key
-* `shift`: Shift
+- `ctrl`: Control
+- `cmd`: Command
+- `alt`: Option
+- `meta`: Meta key
+- `shift`: Shift
 
 ### Keys
 
-The keys are the character produced by the key, or a description of the key for non-printing keys. The available non-printing keys are:
+The keys are the character produced by the key, or a description of the key for non-printing keys.
+The available non-printing keys are:
 
-* `up`
-* `down`
-* `left`
-* `right`
-* `home`
-* `end`
-* `pageup`
-* `pagedown`
-* `backspace`
-* `enter`
-* `insert`
-* `delete`
-* `escape`
-* `tab`
-* `numpadenter`
-* `f1`
-* `f2`
-* `f3`
-* `f4`
-* `f5`
-* `f6`
-* `f7`
-* `f8`
-* `f9`
-* `f10`
-* `f11`
-* `f12`
-* `f13`
-* `f14`
-* `f15`
-* `f16`
-* `f17`
-* `f18`
-* `f19`
-* `f20`
+- `up`
+- `down`
+- `left`
+- `right`
+- `home`
+- `end`
+- `pageup`
+- `pagedown`
+- `backspace`
+- `enter`
+- `insert`
+- `delete`
+- `escape`
+- `tab`
+- `numpadenter`
+- `f1`
+- `f2`
+- `f3`
+- `f4`
+- `f5`
+- `f6`
+- `f7`
+- `f8`
+- `f9`
+- `f10`
+- `f11`
+- `f12`
+- `f13`
+- `f14`
+- `f15`
+- `f16`
+- `f17`
+- `f18`
+- `f19`
+- `f20`
 
 ### Notes and Examples
 
-For a printable key, the value must take into account the presence of the `shift` modifier. So to set a keybinding for `Command + Shift + A`, you would use (note the capitalization):
+For a printable key, the value must take into account the presence of the `shift` modifier. So to
+set a keybinding for `Command + Shift + A`, you would use (note the capitalization):
 
-```
+```markdown
 cmd-shift-A
 ```
 
 While to set a keybindings for `Command + A`, you would use:
 
-```
+```markdown
 cmd-a
 ```
 
@@ -77,7 +81,7 @@ cmd-a
 The available actions and their names are listed in the table below:
 
 | Action Description                 | YAML File Name                                              |
-|------------------------------------|-------------------------------------------------------------|
+| ---------------------------------- | ----------------------------------------------------------- |
 | Add cursor below                   | editor_view:add_cursor_below                                |
 | Add cursor above                   | editor_view:add_cursor_above                                |
 | Fold selected ranges               | editor_view:fold_selected_ranges                            |
