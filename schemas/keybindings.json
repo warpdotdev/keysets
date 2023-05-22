@@ -1,0 +1,386 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "definitions": {
+        "key": {
+            "type": "string",
+            "minLength": 1,
+            "examples": [
+                "ctrl-",
+                "alt-",
+                "shift-",
+                "cmd-"
+            ]
+        }
+    },
+    "title": "keybindings",
+    "description": "Keybindings",
+    "type": "object",
+    "properties": {
+        "editor_view:add_cursor_below": {
+            "title": "editor_view:add_cursor_below",
+            "description": "Adds cursor below",
+            "$ref": "#/definitions/key"
+        },
+        "editor_view:add_cursor_above": {
+            "title": "editor_view:add_cursor_above",
+            "description": "Adds cursor above",
+            "$ref": "#/definitions/key"
+        },
+        "editor_view:fold_selected_ranges": {
+            "title": "editor_view:fold_selected_ranges",
+            "description": "Folds selected ranges",
+            "$ref": "#/definitions/key"
+        },
+        "editor_view:unfold": {
+            "title": "editor_view:unfold",
+            "description": "Unfolds",
+            "$ref": "#/definitions/key"
+        },
+        "editor_view:fold": {
+            "title": "editor_view:fold",
+            "description": "Fold",
+            "$ref": "#/definitions/key"
+        },
+        "editor_view:add_next_occurrence": {
+            "title": "editor_view:add_next_occurrence",
+            "description": "Adds selection for next occurrence",
+            "$ref": "#/definitions/key"
+        },
+        "editor_view:clear_and_copy_lines": {
+            "title": "editor_view:clear_and_copy_lines",
+            "description": "Copies and Clears selected lines",
+            "$ref": "#/definitions/key"
+        },
+        "editor:select_to_line_end": {
+            "title": "editor:select_to_line_end",
+            "description": "Selects to end of line",
+            "$ref": "#/definitions/key"
+        },
+        "editor:select_to_line_start": {
+            "title": "editor:select_to_line_start",
+            "description": "Selects to start of line",
+            "$ref": "#/definitions/key"
+        },
+        "editor_view:insert_autosuggestion_text_and_update_selection": {
+            "title": "editor_view:insert_autosuggestion_text_and_update_selection",
+            "description": "Accepts Autosuggestion",
+            "$ref": "#/definitions/key"
+        },
+        "editor_view:delete_all_left": {
+            "title": "editor_view:delete_all_left",
+            "description": "Deletes all left",
+            "$ref": "#/definitions/key"
+        },
+        "editor_view:delete_all_right": {
+            "title": "editor_view:delete_all_right",
+            "description": "Deletes all right",
+            "$ref": "#/definitions/key"
+        },
+        "editor_view:cut_all_right": {
+            "title": "editor_view:cut_all_right",
+            "description": "Cuts all right",
+            "$ref": "#/definitions/key"
+        },
+        "editor_view:clear_lines": {
+            "title": "editor_view:clear_lines",
+            "description": "Clears selected lines",
+            "$ref": "#/definitions/key"
+        },
+        "editor:delete_word_right": {
+            "title": "editor:delete_word_right",
+            "description": "Deletes word right",
+            "$ref": "#/definitions/key"
+        },
+        "editor_view:cut_word_right": {
+            "title": "editor_view:cut_word_right",
+            "description": "Cuts word right",
+            "$ref": "#/definitions/key"
+        },
+        "editor:delete_word_left": {
+            "title": "editor:delete_word_left",
+            "description": "Deletes word left",
+            "$ref": "#/definitions/key"
+        },
+        "editor_view:cut_word_left": {
+            "title": "editor_view:cut_word_left",
+            "description": "Cuts word left",
+            "$ref": "#/definitions/key"
+        },
+        "editor_view:clear_buffer": {
+            "title": "editor_view:clear_buffer",
+            "description": "Clears command editor",
+            "$ref": "#/definitions/key"
+        },
+        "editor_view:backspace": {
+            "title": "editor_view:backspace",
+            "description": "Removes the previous character",
+            "$ref": "#/definitions/key"
+        },
+        "editor_view:move_to_buffer_end": {
+            "title": "editor_view:move_to_buffer_end",
+            "description": "Moves to the end of the buffer",
+            "$ref": "#/definitions/key"
+        },
+        "editor_view:move_to_buffer_start": {
+            "title": "editor_view:move_to_buffer_start",
+            "description": "Moves to the start of the buffer",
+            "$ref": "#/definitions/key"
+        },
+        "editor_view:move_to_paragraph_end": {
+            "title": "editor_view:move_to_paragraph_end",
+            "description": "Moves to the end of the paragraph",
+            "$ref": "#/definitions/key"
+        },
+        "editor_view:move_to_paragraph_start": {
+            "title": "editor_view:move_to_paragraph_start",
+            "description": "Moves to the start of the paragraph",
+            "$ref": "#/definitions/key"
+        },
+        "editor_view:move_backward_one_word": {
+            "title": "editor_view:move_backward_one_word",
+            "description": "Moves backward one word",
+            "$ref": "#/definitions/key"
+        },
+        "editor_view:move_forward_one_word": {
+            "title": "editor_view:move_forward_one_word",
+            "description": "Moves forward one word",
+            "$ref": "#/definitions/key"
+        },
+        "editor_view:cmd_down": {
+            "title": "editor_view:cmd_down",
+            "description": "Moves cursor to the bottom",
+            "$ref": "#/definitions/key"
+        },
+        "editor_view:end": {
+            "title": "editor_view:end",
+            "description": "Ends",
+            "$ref": "#/definitions/key"
+        },
+        "editor_view:home": {
+            "title": "editor_view:home",
+            "description": "Home",
+            "$ref": "#/definitions/key"
+        },
+        "editor_view:move_to_line_end": {
+            "title": "editor_view:move_to_line_end",
+            "description": "Moves to end of line",
+            "$ref": "#/definitions/key"
+        },
+        "editor_view:move_to_line_start": {
+            "title": "editor_view:move_to_line_start",
+            "description": "Moves to start of line",
+            "$ref": "#/definitions/key"
+        },
+        "editor_view:select_all": {
+            "title": "editor_view:select_all",
+            "description": "Selects all",
+            "$ref": "#/definitions/key"
+        },
+        "editor_view:select_down": {
+            "title": "editor_view:select_down",
+            "description": "Selects down",
+            "$ref": "#/definitions/key"
+        },
+        "editor_view:select_up": {
+            "title": "editor_view:select_up",
+            "description": "Selects up",
+            "$ref": "#/definitions/key"
+        },
+        "editor_view:select_right": {
+            "title": "editor_view:select_right",
+            "description": "Selects one character to the right",
+            "$ref": "#/definitions/key"
+        },
+        "editor_view:select_left": {
+            "title": "editor_view:select_left",
+            "description": "Selects one character to the left",
+            "$ref": "#/definitions/key"
+        },
+        "editor_view:select_right_by_word": {
+            "title": "editor_view:select_right_by_word",
+            "description": "Selects one word to the right",
+            "$ref": "#/definitions/key"
+        },
+        "editor_view:select_left_by_word": {
+            "title": "editor_view:select_left_by_word",
+            "description": "Selects one word to the left",
+            "$ref": "#/definitions/key"
+        },
+        "input:clear_screen": {
+            "title": "input:clear_screen",
+            "description": "Clears screen",
+            "$ref": "#/definitions/key"
+        },
+        "input:search_command_history": {
+            "title": "input:search_command_history",
+            "description": "Search command history",
+            "$ref": "#/definitions/key"
+        },
+        "terminal:clear_lines": {
+            "title": "terminal:clear_lines",
+            "description": "Clears blocks",
+            "$ref": "#/definitions/key"
+        },
+        "terminal:find": {
+            "title": "terminal:find",
+            "description": "Finds",
+            "$ref": "#/definitions/key"
+        },
+        "terminal:reinput_command_with_sudo": {
+            "title": "terminal:reinput_command_with_sudo",
+            "description": "Re-inputs selected command as root",
+            "$ref": "#/definitions/key"
+        },
+        "terminal:reinput_command": {
+            "title": "terminal:reinput_command",
+            "description": "Re-inputs selected command",
+            "$ref": "#/definitions/key"
+        },
+        "terminal:open_share_modal": {
+            "title": "terminal:open_share_modal",
+            "description": "Shares selected block",
+            "$ref": "#/definitions/key"
+        },
+        "terminal:copy_command": {
+            "title": "terminal:copy_command",
+            "description": "Copies command",
+            "$ref": "#/definitions/key"
+        },
+        "terminal:copy_output": {
+            "title": "terminal:copy_output",
+            "description": "Copies command output",
+            "$ref": "#/definitions/key"
+        },
+        "terminal:select_next_block": {
+            "title": "terminal:select_next_block",
+            "description": "Selects next block",
+            "$ref": "#/definitions/key"
+        },
+        "terminal:select_previous_block": {
+            "title": "terminal:select_previous_block",
+            "description": "Selects previous block",
+            "$ref": "#/definitions/key"
+        },
+        "terminal:copy": {
+            "title": "terminal:copy",
+            "description": "Copies",
+            "$ref": "#/definitions/key"
+        },
+        "terminal:paste": {
+            "title": "terminal:paste",
+            "description": "Pastes",
+            "$ref": "#/definitions/key"
+        },
+        "terminal:focus_input": {
+            "title": "terminal:focus_input",
+            "description": "Focuses terminal input",
+            "$ref": "#/definitions/key"
+        },
+        "pane_group:resize_down": {
+            "title": "pane_group:resize_down",
+            "description": "Resizes pane > Move divider down",
+            "$ref": "#/definitions/key"
+        },
+        "pane_group:resize_up": {
+            "title": "pane_group:resize_up",
+            "description": "Resizes pane > Move divider up",
+            "$ref": "#/definitions/key"
+        },
+        "pane_group:resize_right": {
+            "title": "pane_group:resize_right",
+            "description": "Resizes pane > Move divider right",
+            "$ref": "#/definitions/key"
+        },
+        "pane_group:resize_left": {
+            "title": "pane_group:resize_left",
+            "description": "Resizes pane > Move divider left",
+            "$ref": "#/definitions/key"
+        },
+        "pane_group:navigate_down": {
+            "title": "pane_group:navigate_down",
+            "description": "Switches panes down",
+            "$ref": "#/definitions/key"
+        },
+        "pane_group:navigate_up": {
+            "title": "pane_group:navigate_up",
+            "description": "Switches panes up",
+            "$ref": "#/definitions/key"
+        },
+        "pane_group:navigate_right": {
+            "title": "pane_group:navigate_right",
+            "description": "Switches panes right",
+            "$ref": "#/definitions/key"
+        },
+        "pane_group:navigate_left": {
+            "title": "pane_group:navigate_left",
+            "description": "Switches panes left",
+            "$ref": "#/definitions/key"
+        },
+        "pane_group:add_vertical": {
+            "title": "pane_group:add_vertical",
+            "description": "Splits pane down",
+            "$ref": "#/definitions/key"
+        },
+        "pane_group:add_horizontal": {
+            "title": "pane_group:add_horizontal",
+            "description": "Splits pane right",
+            "$ref": "#/definitions/key"
+        },
+        "pane_group:navigate_next": {
+            "title": "pane_group:navigate_next",
+            "description": "Navigates  to next pane",
+            "$ref": "#/definitions/key"
+        },
+        "pane_group:navigate_prev": {
+            "title": "pane_group:navigate_prev",
+            "description": "Navigates  to previous pane",
+            "$ref": "#/definitions/key"
+        },
+        "workspace:show_keybinding_settings": {
+            "title": "workspace:show_keybinding_settings",
+            "description": "Opens keybindings editor",
+            "$ref": "#/definitions/key"
+        },
+        "workspace:toggle_command_palette": {
+            "title": "workspace:toggle_command_palette",
+            "description": "Toggle command palette",
+            "$ref": "#/definitions/key"
+        },
+        "workspace:show_theme_chooser": {
+            "title": "workspace:show_theme_chooser",
+            "description": "Opens theme picker",
+            "$ref": "#/definitions/key"
+        },
+        "workspace:reset_font_size": {
+            "title": "workspace:reset_font_size",
+            "description": "Resets font size to default",
+            "$ref": "#/definitions/key"
+        },
+        "workspace:decrease_font_size": {
+            "title": "workspace:decrease_font_size",
+            "description": "Decreases font size",
+            "$ref": "#/definitions/key"
+        },
+        "workspace:increase_font_size": {
+            "title": "workspace:increase_font_size",
+            "description": "Increases font size",
+            "$ref": "#/definitions/key"
+        },
+        "workspace:activate_next_tab": {
+            "title": "workspace:activate_next_tab",
+            "description": "Activates next tab",
+            "$ref": "#/definitions/key"
+        },
+        "workspace:activate_prev_tab": {
+            "title": "workspace:activate_prev_tab",
+            "description": "Activates previous tab",
+            "$ref": "#/definitions/key"
+        },
+        "workspace:show_settings_modal": {
+            "title": "workspace:show_settings_modal",
+            "description": "Opens settings",
+            "$ref": "#/definitions/key"
+        }
+    },
+    "additionalProperties": false
+}

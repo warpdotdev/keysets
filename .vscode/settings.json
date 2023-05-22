@@ -1,0 +1,8 @@
+{
+    "yaml.schemas": {
+        "schemas/keybindings.json": [
+            "default-warp-keybindings.yaml",
+            "emacs.yaml"
+        ]
+    }
+}
