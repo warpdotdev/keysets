@@ -4,6 +4,9 @@
         "key": {
             "type": "string",
             "minLength": 1,
+            "not": {
+                "pattern": "---|([^-]+)-\\1"
+            },
             "examples": [
                 "ctrl-",
                 "alt-",
