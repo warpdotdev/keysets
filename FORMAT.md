@@ -12,11 +12,19 @@ example, `cmd-ctrl-g` represents `Command + Control + G`
 
 ### Modifiers
 
-The possible modifiers are:
+The possible modifiers on Mac are:
 
 - `ctrl`: Control
 - `cmd`: Command
 - `alt`: Option
+- `meta`: Meta key
+- `shift`: Shift
+
+The possible modifiers on Windows or Linux are:
+
+- `ctrl`: Control
+- `ctrl-shift`: Windows, Super, or System
+- `alt`: Alt
 - `meta`: Meta key
 - `shift`: Shift
 
